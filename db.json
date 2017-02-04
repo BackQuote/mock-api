@@ -1,0 +1,28 @@
+{
+  "algorithms": [
+    {"id": 1, "name": "Algorithm 1"},
+    {"id": 2, "name": "Algorithm 2"}
+  ],
+  "templates": [
+    {"id": 1, "algorithm": 1, "params": "{ 'param1': 'val1' }"},
+    {"id": 2, "algorithm": 1, "params": "{ 'param1': 'val1', 'param2': 'val2' }"},
+    {"id": 3, "algorithm": 2, "params": "{ 'param1': 'val1', 'param2': 'val2', 'param3': 'val3' }"}
+  ],
+  "simulations": [
+    {"id": 1, "algorithm": 1, "params": "{ 'param1': 'val1' }"}
+  ],
+  "tickers": [
+    {"id": 1, "ticker": "S&P500"},
+    {"id": 2, "ticker": "UPRO"}
+  ],
+  "runs": [
+    {"id": 1, "simulation_id": 1}
+  ],
+  "trades": [],
+  "quotes": [],
+  "simulation_tickers": [
+    {"simulation_id": 1, "ticker_id": 1},
+    {"simulation_id": 2, "ticker_id": 1},
+    {"simulation_id": 2, "ticker_id": 2}
+  ]
+}

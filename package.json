@@ -1,0 +1,24 @@
+{
+  "name": "backquote-mock-api",
+  "version": "1.0.0",
+  "description": "BackQuote mock API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 8888",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BackQuote/mock-api.git"
+  },
+  "author": "Martin Rancourt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BackQuote/mock-api/issues"
+  },
+  "homepage": "https://github.com/BackQuote/mock-api#readme",
+  "devDependencies": {
+    "json-server": "^0.9.4"
+  }
+}
