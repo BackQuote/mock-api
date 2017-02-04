@@ -1,6 +1,6 @@
 # BackQuote mock API
 
-Simple mock API for the BackQute Backtester. 
+Simple mock API for the BackQuote Backtester. 
 
 Ressources exposed : 
   - [http://localhost:8888/algorithms](http://localhost:8888/algorithms)
