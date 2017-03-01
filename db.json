@@ -12,7 +12,7 @@
     {"id": 2, "algorithm": 1, "params": "{ 'param1': 'val1', 'param2': 'val2' }"},
     {"id": 3, "algorithm": 2, "params": "{ 'param1': 'val1', 'param2': 'val2', 'param3': 'val3' }"}
   ],
-  "simulations": [
+  "backtests": [
     {"id": 1, "algorithm": 1, "params": "{\"param1\":\"val1\"}"},
     {"id": 2, "algorithm": 1, "params": "{\"timeBufferStart\":[0,3000,1000],\"timeBufferEnd\":[0,3000,1000],\"wallet\":15000,\"margin\":0.3}"}
   ],
