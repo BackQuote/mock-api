@@ -3,9 +3,9 @@
     {"id": 1, "name": "Algorithm 1"},
     {"id": 2, "name": "Algorithm 2"}
   ],
-  "day": [
-    {"id": 1, "2017-02-21"},
-    {"id": 2, "2017-02-22"}
+  "days": [
+    {"id": 1, "date": "2017-02-21"},
+    {"id": 2, "date": "2017-02-22"}
   ],
   "templates": [
     {"id": 1, "algorithm": 1, "params": "{ 'param1': 'val1' }"},
@@ -26,7 +26,7 @@
   "trades": [
     {"id": 1, "quantity_reset": 200, "quantity_no_reset": 99, "action": 1, "timestamp": "2017-02-21 18:01:16.787000", "result_id": 1},
     {"id": 2, "quantity_reset": 190, "quantity_no_reset": 110, "action": 2, "timestamp": "2017-02-21 18:02:00.787000", "result_id": 1},
-    {"id": 3, "quantity_reset": 100, "quantity_no_reset": 120, "action": 1, "timestamp": "2017-02-22 18:02:00.787000", "result_id": 2},
+    {"id": 3, "quantity_reset": 100, "quantity_no_reset": 120, "action": 1, "timestamp": "2017-02-22 18:02:00.787000", "result_id": 2}
   ],
   "quotes": [
     {"id": 1, "price": 100.00, "timestamp": "2017-02-21 18:00:30.405000", "last_of_day": false, "day_id": 1},
@@ -35,7 +35,7 @@
     {"id": 4, "price": 65.00, "timestamp": "2017-02-22 11:10:34.406700", "last_of_day": false, "day_id": 2}
   ],
   "result": [
-    {"id": 1, "params": "{}", "daily_profit_reset": 20.00, "daily_profit_no_reset": 50.00, "cumulative_profit_reset": 50.00, "cumulative_profit_no_reset": 10.00, "day_id": 1}
+    {"id": 1, "params": "{}", "daily_profit_reset": 20.00, "daily_profit_no_reset": 50.00, "cumulative_profit_reset": 50.00, "cumulative_profit_no_reset": 10.00, "day_id": 1},
     {"id": 2, "params": "{}", "daily_profit_reset": 25.00, "daily_profit_no_reset": 55.00, "cumulative_profit_reset": 60.00, "cumulative_profit_no_reset": 25.00, "day_id": 1}
   ],
   "simulation_tickers": [
