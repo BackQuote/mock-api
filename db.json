@@ -4,8 +4,16 @@
     {"id": 2, "name": "Algorithm 2"}
   ],
   "days": [
-    {"id": 1, "date": "2017-02-21"},
-    {"id": 2, "date": "2017-02-22"}
+    {"id": 1, "date": "2017-02-21", "profit": 20},
+    {"id": 2, "date": "2017-02-22", "profit": 100},
+    {"id": 3, "date": "2017-02-23", "profit": 200},
+    {"id": 4, "date": "2017-02-24", "profit": -100},
+    {"id": 5, "date": "2017-02-25", "profit": 75},
+    {"id": 6, "date": "2017-02-28", "profit": 50},
+    {"id": 7, "date": "2017-03-01", "profit": -200},
+    {"id": 8, "date": "2017-03-02", "profit": -300},
+    {"id": 9, "date": "2017-03-03", "profit": 100},
+    {"id": 10, "date": "2017-03-04", "profit": 125}
   ],
   "templates": [
     {"id": 1, "algorithm": 1, "params": "{ 'param1': 'val1' }"},
